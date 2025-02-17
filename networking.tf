@@ -1,6 +1,7 @@
 ### NETWORK
 data "google_compute_network" "default" {
   name                    = "default"
+  project                 = "compact-booking-451020-g6"
 }
 
 ## SUBNET
