@@ -1,4 +1,8 @@
 ### NETWORK
+data "google_compute_network" "default" {
+  name                    = "default"
+  project                 = var.project-id
+}
 
 ## SUBNET
 resource "google_compute_subnetwork" "subnet-1" {
