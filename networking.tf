@@ -1,7 +1,4 @@
 ### NETWORK
-data "google_compute_network" "default" {
-  name                    = "default"
-}
 
 ## SUBNET
 resource "google_compute_subnetwork" "subnet-1" {
